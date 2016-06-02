@@ -50,9 +50,10 @@
   },
   "scripts": {
     "install": "prebuild --install",
+    "build": "prebuild --install",
     "test": "tape test/*-test.js | faucet",
     "rebuild": "prebuild --compile",
-    "prebuild": "prebuild --all --strip --verbose"
+    "build-all": "prebuild --all --strip --verbose"
   },
   "license": "MIT",
   "gypfile": true

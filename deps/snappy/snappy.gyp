@@ -8,6 +8,7 @@
           , ['OS=="win"',     {'os_include': 'win32'}]
           , ['OS=="freebsd"', {'os_include': 'freebsd'}]
           , ['OS=="openbsd"', {'os_include': 'openbsd'}]
+          , ['OS=="netbsd"',  {'os_include': 'netbsd'}]
         ]
     }
   , 'target_name': 'snappy'
